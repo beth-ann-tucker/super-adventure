@@ -22,16 +22,27 @@ $(function () {
       url: "https://github.com/beth-ann-tucker/super-adventure/blob/main/data.json",
       dataType: "json",
       success: function (data) {
+        console.log(data.inputFirstName);
         $("#inputFirstName").val(data.inputFirstName);
+        console.log(data.inputMiddleName);
         $("#inputMiddleName").val(data.inputMiddleName);
+        console.log(data.inputLastName);
         $("#inputLastName").val(data.inputLastName);
+        console.log(data.inputEmail);
         $("#inputEmail").val(data.inputEmail);
+        console.log(data.inputPhone);
         $("#inputPhone").val(data.inputPhone);
+        console.log(data.inputSSN);
         $("#inputSSN").val(data.inputSSN);
+        console.log(data.inputBirthdate);
         $("#inputBirthdate").val(data.inputBirthdate);
+        console.log(data.inputAddress);
         $("#inputAddress").val(data.inputAddress);
+        console.log(data.inputCity);
         $("#inputCity").val(data.inputCity);
+        console.log(data.data.inputZip);
         $("#inputZip").val(data.inputZip);
+        console.log(data.data.permissionCheck);
         $("#permissionCheck").prop("checked", data.permissionCheck);
       },
     });
