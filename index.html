@@ -1,0 +1,144 @@
+<!-- navbar with links to my professional page an personal page-->
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Roboto:wght@100&family=Space+Mono&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="/styles/style.css">
+<style>
+
+</style>
+</head>
+
+ <nav class="navbar navbar-expand-md navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">India Lab</a>
+  <!-- Navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Code</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Validation</a>
+      </li>
+    </ul>
+</nav>
+
+<h1>IDENTITY THEFT IS NOT A JOKE JIM</h1>
+<h2>Please fill out your sensitive data so that you can become one of the millions of families suffering every year.</h2>
+
+<div id="form">
+  <div class="row">
+    <div class="col-sm"> <label class="form-label">First Name</label>
+      <input class="form-control" id="inputFirstName"></div>
+    <div class="col-sm"> <label class="form-label">Middle Name</label>
+      <input class="form-control" id="inputMiddleName"></div>
+    <div class="col-sm"> <label class="form-label">Last Name</label>
+      <input class="form-control" id="inputLastName"></div>
+  </div>
+  <div class="row">
+    <div class="col-sm"> <label class="form-label">Email</label>
+      <input class="form-control" id="inputEmail"></div>
+    <div class="col-sm"> <label class="form-label">Phone Number</label>
+      <input class="form-control" id="inputPhone"></div>
+    <div class="col-sm"> <label class="form-label">SSN</label>
+      <input class="form-control" id="inputSSN"></div>
+    <div class="col-sm"> <label class="form-label">Birthdate</label>
+      <input class="form-control" id="inputBirthdate"  placeholder="MM/DD/YYYY"></div>
+  </div>
+  <form class="row g-3">
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Address</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Address 2</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">State</label>
+      <select id="inputState" class="form-select">
+        <option selected>Select Your State</option>
+        <option>AL</option>
+        <option>AK</option>
+        <option>AZ</option>
+        <option>AR</option>
+        <option>CA</option>
+        <option>CO</option>
+        <option>CT</option>
+        <option>DE</option>
+        <option>FL</option>
+        <option>GA</option>
+        <option>HI</option>
+        <option>ID</option>
+        <option>IL</option>
+        <option>IN</option>
+        <option>IA</option>
+        <option>KS</option>
+        <option>KY</option>
+        <option>LA</option>
+        <option>MD</option>
+        <option>MA</option>
+        <option>MI</option>
+        <option>MN</option>
+        <option>MS</option>
+        <option>MO</option>
+        <option>MT</option>
+        <option>NE</option>
+        <option>NV</option>
+        <option>NH</option>
+        <option>NJ</option>
+        <option>NM</option>
+        <option>NY</option>
+        <option>NC</option>
+        <option>ND</option>
+        <option>OH</option>
+        <option>OK</option>
+        <option>OR</option>
+        <option>PA</option>
+        <option>RI</option>
+        <option>SC</option>
+        <option>SD</option>
+        <option>TN</option>
+        <option>TX</option>
+        <option>UT</option>
+        <option>VT</option>
+        <option>VA</option>
+        <option>WA</option>
+        <option>WV</option>
+        <option>WI</option>
+        <option>WY</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label for="inputZip" class="form-label">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+ <div class="col-4">
+    Do you know anyone elses SSN?
+    <input type="radio" onclick="unhideFunction()" id="yesSSN" name="another_SSN">
+<label for="html">Yes</label>
+<input type="radio" onclick="hideFunction()" id="noSSN" name="another_SSN">
+<label for="css">No</label><br>
+    <input type="text" class="form-control" id="inputAnotherSSN" placeholder="Enter SSN">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="permissionCheck">
+      <label class="form-check-label" for="gridCheck">
+        Permission to steal my identity.
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button  class="btn" id='submitBtn'>Submit</button>
+    <button  class="btn" id='dwightBtn'>Dwight's Info</button>
+  </div>
+</form>
+</div>
+
+<div id="thankYouPersonalized"></div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script><script  src="/scripts/script.js"></script>

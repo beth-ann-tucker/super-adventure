@@ -1,0 +1,53 @@
+body {
+  color: #FFDB58;
+  background-image: url("https://assets.b9.com.br/wp-content/uploads/2019/08/jim-and-dwightjpg-9b2f98-1280w-20001993-1280x0-1280x720.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+nav{
+  background-color: #5C4033;
+}
+
+h1{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 80px;
+  font-family: "Lalezar";
+}
+
+h2{
+  text-align: center;
+  font-size: 30px;
+  font-family: "Lalezar";
+}
+
+#form{
+  margin-top: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(92, 64, 51, 0.4);
+  font-weight: bold;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+
+.row{
+  margin-top: 15px;
+}
+
+#submitBtn{
+  width: 80px;
+  background-color: #FFDB58;
+  color: #5C4033;
+}
+
+#dwightBtn{
+  width: 125px;
+  background-color: #5C4033;
+  color: #FFDB58;
+}
