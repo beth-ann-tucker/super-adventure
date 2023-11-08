@@ -19,7 +19,7 @@ $(function () {
     console.log("button clicked: ");
 
     $.ajax({
-      url: "#",
+      url: "https://github.com/beth-ann-tucker/super-adventure/blob/main/data.json",
       dataType: "json",
       success: function (data) {
         $("#inputFirstName").val(data.inputFirstName);
